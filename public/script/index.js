@@ -1,3 +1,3 @@
-requirejs(['src/Triage'], function(Greeter) {
-    console.log(Greeter.Triage.greet("Joshs"));
+requirejs(['src/Game'], function(Game) {
+    var game = new Game.Game()
 })
