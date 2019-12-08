@@ -1,5 +1,5 @@
-import {GameView} from "GameView"
-import { CombatGameView } from "./CombatGameView"
+import { GameView } from "./GameView/GameView"
+import { CombatGameView } from "./GameView/CombatGameView"
 
 export class Game {
 
