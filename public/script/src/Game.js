@@ -1,4 +1,4 @@
-define(["require", "exports", "./CombatGameView"], function (require, exports, CombatGameView_1) {
+define(["require", "exports", "./GameView/CombatGameView"], function (require, exports, CombatGameView_1) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var Game = /** @class */ (function () {
