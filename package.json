@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc | http-server",
+    "start": "run-script-os",
+    "start:windows": "del public/script/src/* /s | tsc | http-server",
+    "start:default": "rm -r public/script/src/* | tsc | http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^0.12.0"
+    "http-server": "^0.12.0",
+    "run-script-os": "^1.0.7"
   }
 }
